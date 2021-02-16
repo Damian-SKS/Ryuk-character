@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 header {
@@ -39,4 +41,24 @@ main img{
 h2 {
   font-size: 35px;
   color: red;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: white;
+  background-color: #394254;
+}
+footer{
+  background-color: #394254;
+  text-align: center;
+  color: white;
+}
+footer a{
+  color: red;
+}
+footer a:hover{
+  opacity: .5;
+  background-color: transparent;
+
 }
